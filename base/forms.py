@@ -6,4 +6,5 @@ class RoomForm(ModelForm):
     class Meta:
         # The model on which to create the form
         model = Room
+        fields = "__all__"
         
